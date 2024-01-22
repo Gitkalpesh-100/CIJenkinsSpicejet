@@ -50,7 +50,7 @@ public class UtilClass<HttpURLConnection> {
 	public void Browserlaunch(String browser) {
 
 		if (browser.equalsIgnoreCase("Chrome")) {
-
+                           System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\chromedriver-win64\\chromedriver.exe");
 			driver = new ChromeDriver();
 		} else if (browser.equalsIgnoreCase("Edge")) {
 
