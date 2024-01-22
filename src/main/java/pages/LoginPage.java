@@ -1,6 +1,6 @@
 package pages;
 
-import org.openqa.grid.web.servlet.handler.WebDriverRequest;
+
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
@@ -8,7 +8,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import base.ProjectSpecifications;
-import net.bytebuddy.asm.Advice.OffsetMapping.ForOrigin.Renderer.ForReturnTypeName;
+
 
 public class LoginPage extends ProjectSpecifications{
 	
