@@ -27,12 +27,6 @@
 		</dependency>
 
 
-		<dependency>
-			<groupId>CapStone1</groupId>
-			<artifactId>CapStone1</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-
 		<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
 		<dependency>
 			<groupId>com.aventstack</groupId>
@@ -74,7 +68,7 @@
 					<version>3.2.3</version>
 					<configuration>
 						<suiteXmlFiles>
-							<suiteXmlFile>SequentialExecution.xml</suiteXmlFile>
+							<suiteXmlFile>testng1.xml</suiteXmlFile>
 						</suiteXmlFiles>
 					</configuration>
 				</plugin>
